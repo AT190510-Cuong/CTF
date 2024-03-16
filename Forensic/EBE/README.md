@@ -35,7 +35,7 @@ thấy các ký tự của flag xuất hiện khi trường flags trong lớp IP
 
 - vậy chúng ta dùng script sau
 
-```python!
+```python
 #!/usr/bin/python3.7
 from scapy.all import *
 
