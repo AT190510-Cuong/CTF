@@ -2,7 +2,7 @@
 
 ## Đề bài
 
-```!
+```
 I was trying to send a flag to my friend over UDP, one character at a time, but it got corrupted! I think someone else was messing around with me and sent extra bytes, though it seems like they actually abided by RFC 3514 for once. Can you get the flag?
 ```
 
@@ -14,7 +14,7 @@ I was trying to send a flag to my friend over UDP, one character at a time, but 
 
 in ra từng gói tin để phân tích với Scapy payload
 
-```python!
+```python
 #!/usr/bin/python3.7
 from scapy.all import *
 
